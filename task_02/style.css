@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  justify-content: space-around; 
+  align-items: center;
+  height: 100vh; 
+  margin: 0;
+}
+
+.button {
+  padding: 15px 30px;
+  border-radius: 15px;
+  font-size: 20px;
+  text-decoration: none;
+  border: none;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+}
+
+.green {
+  background-color: #768B4D;
+  color: white;
+}
+
+.light-green {
+  background-color: #AABF90;
+  color: black;
+}
+
+#login {
+  font-family: Arial, sans-serif;
+}
+
+#registration {
+  font-family: Arial, sans-serif;
+}
